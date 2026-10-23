@@ -1,0 +1,6 @@
+class Book:
+    pass
+
+class Library:
+    def __init__(self, book: Book):
+        self.book = book
