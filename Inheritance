@@ -1,0 +1,7 @@
+class Animal:
+    def eat(self):
+        pass
+
+class Dog(Animal):
+    # Dog inherits eat() from Animal
+    pass
