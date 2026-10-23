@@ -1,0 +1,6 @@
+class Document:
+    pass
+
+class Printer:
+    def print_doc(self, doc: Document):
+        pass
