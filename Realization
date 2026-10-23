@@ -1,0 +1,9 @@
+from abc import ABC, abstractmethod
+
+class Payable(ABC):
+    def pay(self):
+        pass
+
+class Payment(Payable):
+    def pay(self):
+        pass
